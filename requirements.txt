@@ -1,0 +1,4 @@
+networkx
+pytest
+jinja2       # for HTML preview templating
+click        # optional, for nicer CLI

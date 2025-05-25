@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-05",
+  "grid": [
+    [
+      "cutting",
+      "slash",
+      "crack"
+    ],
+    [
+      "stem",
+      "nautical",
+      "breach"
+    ],
+    [
+      "compound",
+      "top",
+      "crown"
+    ]
+  ],
+  "anchors": [
+    "cutting",
+    "crack",
+    "compound",
+    "crown"
+  ],
+  "bridges": [
+    "slash",
+    "stem",
+    "nautical",
+    "breach",
+    "top"
+  ],
+  "scores": {
+    "row1": 1.7215764942311114,
+    "row2": 1.565493240056182,
+    "row3": 1.6532988369911517,
+    "col1": 1.8460209761886075,
+    "col2": 0.0,
+    "col3": 1.6530457795802893
+  },
+  "review_status": "pending"
+}

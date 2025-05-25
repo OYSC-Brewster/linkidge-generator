@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-06",
+  "grid": [
+    [
+      "sound",
+      "dub",
+      "blow"
+    ],
+    [
+      "pop",
+      "slang",
+      "suck"
+    ],
+    [
+      "snap",
+      "crack",
+      "rock"
+    ]
+  ],
+  "anchors": [
+    "sound",
+    "blow",
+    "snap",
+    "rock"
+  ],
+  "bridges": [
+    "dub",
+    "pop",
+    "slang",
+    "suck",
+    "crack"
+  ],
+  "scores": {
+    "row1": 1.7696965690348687,
+    "row2": 3.3607664056311046,
+    "row3": 1.649779568801779,
+    "col1": 1.7977157874937069,
+    "col2": 3.160860911202822,
+    "col3": 1.6288031548634594
+  },
+  "review_status": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Linkidge Puzzle",
+  "type": "object",
+  "required": ["date", "grid", "anchors", "bridges", "scores", "review_status"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "grid": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "anchors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "bridges": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 5,
+      "maxItems": 5
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "row1": { "type": "number" },
+        "row2": { "type": "number" },
+        "row3": { "type": "number" },
+        "col1": { "type": "number" },
+        "col2": { "type": "number" },
+        "col3": { "type": "number" }
+      },
+      "required": ["row1","row2","row3","col1","col2","col3"]
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["pending","good","edit"]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2025-05-28",
+  "grid": [
+    [
+      "dip",
+      "water",
+      "well"
+    ],
+    [
+      "dance",
+      "person",
+      "auxiliary"
+    ],
+    [
+      "swing",
+      "liberty",
+      "discharge"
+    ]
+  ],
+  "anchors": [
+    "dip",
+    "well",
+    "swing",
+    "discharge"
+  ],
+  "bridges": [
+    "water",
+    "dance",
+    "person",
+    "auxiliary",
+    "liberty"
+  ],
+  "scores": {
+    "row1": 1.9857322239578403,
+    "row2": 2.5130108669383615,
+    "row3": 1.862765128008102,
+    "col1": 1.913134138134574,
+    "col2": 2.753160474798343,
+    "col3": 1.7865170942866653
+  },
+  "review_status": "pending"
+}

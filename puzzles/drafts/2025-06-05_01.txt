@@ -1,0 +1,14 @@
+Puzzle Grid:
+cutting | slash | crack
+stem | nautical | breach
+compound | top | crown
+
+Scores:
+row1: 1.72
+row2: 1.57
+row3: 1.65
+col1: 1.85
+col2: 0.00
+col3: 1.65
+
+Status: below-threshold: ['col2']
